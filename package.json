@@ -1,0 +1,32 @@
+{
+  "name": "esr-cli",
+  "version": "0.0.1",
+  "description": "cross-platform script manager for sharing, publishing, and running executable scripts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mroczect-org/esr.git"
+  },
+  "keywords": [
+    "sh",
+    "shell",
+    "script",
+    "registri",
+    "cli",
+    "dev-to-dev",
+    "bat",
+    "ci"
+  ],
+  "author": "mroczect.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mroczect-org/esr/issues"
+  },
+  "homepage": "https://github.com/mroczect-org/esr#readme",
+  "devDependencies": {
+    "@types/node": "^24.5.0"
+  }
+}
