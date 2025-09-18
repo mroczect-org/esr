@@ -1,6 +1,6 @@
 {
   "name": "esr-cli",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Cross-platform script manager for sharing, publishing, and running executable scripts.",
   "type": "module",
   "main": "dist/index.js",
