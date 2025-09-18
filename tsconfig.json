@@ -8,14 +8,34 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
+    "baseUrl": "./cli",
+    "paths": {
+      "@lib/*": ["lib/*"],
+      "@utils/*": ["lib/utils/*"],
+      "@auth/*": ["lib/auth/*"],
+      "@main/*": ["lib/main/*"]
+    },
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
     "noImplicitOverride": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noPropertyAccessFromIndexSignature": true,
-    "strict": true,
+    "useUnknownInCatchVariables": true,
+    "exactOptionalPropertyTypes": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "pretty": true,
     "moduleResolution": "NodeNext"
-  }
+  },
+  "include": ["cli", "cli/types"]
 }
